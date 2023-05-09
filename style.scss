@@ -1,0 +1,23 @@
+$cwhite : white;
+$cBlack: rgba(6, 4, 4, 0.507);
+
+
+#container {
+    text-align: center;
+}
+.btn {
+    background-color: $cwhite;
+    color: $cBlack;
+    border: 1px solid black;
+    padding: 10px 40px;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 50px 0px;
+    transition: all 0.3s;
+    // transition: color 5s ease;
+    &:hover {
+        background-color: black;
+        color: white;
+    }
+    
+}
